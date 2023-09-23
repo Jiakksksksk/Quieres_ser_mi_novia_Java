@@ -16,7 +16,7 @@ public class Ventana extends JFrame{
     public Ventana(){
         setSize(640,480);//Establecemos el tamaño de la ventana
         setLocationRelativeTo(null);//Establecemos la pantalla en el centro
-        setTitle("Quieres ser mi Novia");//Establecemos el titulo de nuestra ventana
+        setTitle("Quieres ser mi Niña");//Establecemos el titulo de nuestra ventana
         setResizable(false);//Establecemos si la ventana puede cambiar de tamaño o no
         iniciarComponentes();
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -36,7 +36,7 @@ public class Ventana extends JFrame{
     private void colocarEtiquetas(){
         //Etiqueta 1 - etiqueta de texto
         JLabel etiqueta = new JLabel();//Creamos una etiqueta de texto
-        etiqueta.setText("Quieres ser mi novia?");//Establecemos el texto de la etiqueta
+        etiqueta.setText("Quieres ser mi Niña?");//Establecemos el texto de la etiqueta
         etiqueta.setBounds(160,50,300,80);
         etiqueta.setForeground(Color.BLACK);//Establecemos el color de la letra
         etiqueta.setFont(new Font("cooper blak",Font.PLAIN,30));
@@ -44,7 +44,7 @@ public class Ventana extends JFrame{
     }
     private void colocarBotones(){
         boton1 = new JButton();
-        boton1.setText("Si");
+        boton1.setText("Shi");
         boton1.setBounds(60, 250, 100, 40);
         eventoDeRaton();
         panel.add(boton1);
